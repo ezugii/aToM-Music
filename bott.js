@@ -52,9 +52,6 @@ class MainClient extends Client {
 
     }
     
-    client.on('ready', () => {
-     client.user.setActivity(`-oynat -yardım`)
-    });
     connect() {
         return super.login(this.token);
     };
