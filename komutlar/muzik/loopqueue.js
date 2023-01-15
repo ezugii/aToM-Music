@@ -3,7 +3,7 @@ const { EmbedBuilder } = require("discord.js");
 module.exports = {
     config: {
         name: "loopqueue",
-        aliases: ["tekrarla"],
+        aliases: ["lq", "loopall"],
         description: "Sıradaki şarkıların hepsini loop moduna alır.",
         kategori: "muzik"
 

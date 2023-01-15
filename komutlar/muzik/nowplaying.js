@@ -3,7 +3,7 @@ const { EmbedBuilder } = require("discord.js");
 module.exports = {
     config: {
         name: "nowplaying",
-        aliases: ["np", "nowplay"],
+        aliases: ["np", "now"],
         description: "Şuan çalan şarkıyı görüntüler.",
         kategori: "muzik"
 

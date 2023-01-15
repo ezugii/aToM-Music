@@ -3,7 +3,7 @@ const { EmbedBuilder } = require('discord.js');
 module.exports = { 
     config: {
         name: "shuffle",
-        aliases: ["karistir"],
+        aliases: ["mix"],
         description: "Geçerli kuyruğu karıştırır.",
         kategori: "muzik"
     },

@@ -3,7 +3,7 @@ const { EmbedBuilder } = require("discord.js");
 module.exports = {
     config: {
         name: "skip",
-        aliases: ["atla"],
+        aliases: ["s"],
         description: "Çalan şarkıyı geçersiniz.",
         kategori: "muzik"
     },

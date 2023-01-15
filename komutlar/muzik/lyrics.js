@@ -4,7 +4,7 @@ const { EmbedBuilder } = require('discord.js');
 module.exports = { 
     config: {
         name: "lyrics",
-        aliases: ["lirik"],
+        aliases: [],
         description: "Şarkı sözlerini gösterir",
         kategori: "muzik"
 

@@ -4,7 +4,7 @@ const pagequeue = require('../../structures/pagequeue.js');
 module.exports = {
     config: {
         name: "queue",
-        aliases: ["queue"],
+        aliases: ["q", "que"],
         description: "Şarkı kuyruğunu görüntülersiniz.",
 		kategori: "muzik"
 

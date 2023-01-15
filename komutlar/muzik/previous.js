@@ -3,7 +3,7 @@ const { EmbedBuilder } = require("discord.js");
 module.exports = {
     config: {
         name: "previous",
-        aliases: ["önceki"],
+        aliases: ["prev", "önceki"],
         description: "Sıradaki önceki şarkıyı çalar.",
         kategori: "muzik"
 

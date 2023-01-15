@@ -3,7 +3,7 @@ const { EmbedBuilder } = require("discord.js");
 module.exports = {
     config: {
         name: "volume",
-        aliases: ["ses"],
+        aliases: ["vol", "v", "ses"],
         description: "Şarkının ses seviyesini ayarlar.",
         kategori: "muzik"
     },

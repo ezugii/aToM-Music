@@ -3,7 +3,7 @@ const { EmbedBuilder } = require("discord.js");
 module.exports = {
     config: {
         name: "pause",
-        aliases: ["durdur", "duraklat"],
+        aliases: ["pa", "duraklat"],
         description: "Çalan şarkıyı duraklatır.",
         kategori: "muzik"
 

@@ -3,7 +3,7 @@ const { PermissionsBitField } = require("discord.js");
 module.exports = {
     config: {
         name: "play",
-        aliases: ["oynat"],
+        aliases: ["pplay", "p", "çal", "oynat"],
         description: "Belirttiğiniz şarkıyı sizin için çalar.",
         kategori: "muzik"
 
