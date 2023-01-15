@@ -24,9 +24,6 @@ module.exports = async (client) => {
   setInterval(() => {
       client.user.setActivity(`${activities[Math.floor(Math.random() * activities.length)]}`, { type: 'WATCHING' });
   }, 15000)
-  client.on('ready', () => {
-    client.user.setActivity(`-oynat -yardım`)
-  });
 }
 
 
