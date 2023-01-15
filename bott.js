@@ -52,16 +52,6 @@ class MainClient extends Client {
 
     }
     
-    var oyun = [
-        "-oynat -yardım",
-    ];
-
-    setInterval(function() {
-
-        var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
-
-        client.user.setGame(oyun[random]);
-        }, 2 * 2500);
     
     connect() {
         return super.login(this.token);
