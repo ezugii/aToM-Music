@@ -51,6 +51,10 @@ class MainClient extends Client {
         ["loadCommands", "loadEvents", "loadDistube"].forEach(x => require(`./handlers/${x}`)(client));
 
     }
+    
+    client.on('ready', () => {
+     client.user.setActivity(`-oynat -yardım`)
+    });
     connect() {
         return super.login(this.token);
     };
