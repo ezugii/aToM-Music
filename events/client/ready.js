@@ -22,7 +22,7 @@ module.exports = async (client) => {
   ]
 
   setInterval(() => {
-      client.user.setActivity(`${activities[Math.floor(Math.random() * activities.length)]}`, { type: 'WATCHING' }, "-oynat -yardım");
+      client.user.setActivity(`${activities[Math.floor(Math.random() * activities.length)]}`, { type: 'WATCHING' });
   }, 15000)
 }
 
