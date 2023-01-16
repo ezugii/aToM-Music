@@ -1,8 +1,6 @@
-@echo off
-title DisSpaceX
-
-:Reconnected
-
+echo off
+color 1
+cls
+:a
 node index.js
-
-goto Reconnected
+goto a
